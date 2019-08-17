@@ -1,13 +1,14 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "danielgading.com",
   "private": true,
   "description": "A starter for a blog powered by Gatsby and Markdown",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Daniel Gading",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
+    "babel-jest": "^24.9.0",
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.13.21",
     "gatsby-image": "^2.2.6",
@@ -28,7 +29,8 @@
     "gatsby-transformer-remark": "^2.6.5",
     "gatsby-transformer-sharp": "^2.2.3",
     "prismjs": "^1.16.0",
-    "react": "^16.8.6",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
@@ -39,7 +41,17 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "babel-preset-gatsby": "^0.2.8",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "gatsby-plugin-eslint": "^2.0.5",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "react-test-renderer": "^16.9.0"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
@@ -57,6 +69,6 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "jest"
   }
 }

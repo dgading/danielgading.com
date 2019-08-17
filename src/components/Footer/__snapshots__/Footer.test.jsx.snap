@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+<footer>
+  ©
+  2019
+  , Built with,
+   
+  <a
+    href="https://www.gatsbyjs.org"
+  >
+    Gatsby
+  </a>
+</footer>
+`;
