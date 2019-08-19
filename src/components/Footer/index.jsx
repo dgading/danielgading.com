@@ -2,12 +2,13 @@ import React from 'react';
 import StyledFooter from './StyledFooter';
 
 const Footer = () => (
-  <StyledFooter>
-    ©
-    {new Date().getFullYear()}
-    , Built with,
-    {' '}
-    <a href="https://www.gatsbyjs.org">Gatsby</a>
+  <StyledFooter className="site-footer">
+    <div className="site-info">
+      © Daniel Gading
+      <span className="copyright-date">
+        {new Date().getFullYear()}
+      </span>
+    </div>
   </StyledFooter>
 );
 
