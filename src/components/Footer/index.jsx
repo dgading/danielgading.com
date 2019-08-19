@@ -1,13 +1,14 @@
 import React from 'react';
+import StyledFooter from './StyledFooter';
 
 const Footer = () => (
-  <footer>
+  <StyledFooter>
     ©
     {new Date().getFullYear()}
     , Built with,
     {' '}
     <a href="https://www.gatsbyjs.org">Gatsby</a>
-  </footer>
+  </StyledFooter>
 );
 
 export default Footer;
